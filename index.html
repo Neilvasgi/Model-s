@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shop — Local SPA</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#/" class="logo">LocalShop</a>
+      <input id="search" class="search" type="search" placeholder="Search products…" aria-label="Search products">
+      <nav class="header-actions">
+        <a href="#/cart" class="cart-link" aria-label="View cart">Cart <span id="cart-count" aria-hidden="true">0</span></a>
+        <a href="#/admin" class="admin-link">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container" role="main">
+    <!-- Views mount here -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:hello@example.com">hello@example.com</a> • <a href="#/account">Account</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
